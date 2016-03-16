@@ -18,8 +18,10 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
   s.require_path  = 'lib'
 
-  s.required_ruby_version = ">= 2.0"
+  s.required_ruby_version = '>= 2.0'
   
-  s.add_dependency "sprockets", ">= 2.0"
+  s.add_dependency 'sprockets', '>= 2.0'
 
+  s.add_development_dependency 'minitest', '~> 5.8.4'
+  s.add_development_dependency 'mocha', '~> 1.1.0'
 end
